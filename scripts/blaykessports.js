@@ -9,4 +9,6 @@ $(".dropdown").click(function(){
 
    //adding sample code
 
+   //another sample code 2
+
 });
