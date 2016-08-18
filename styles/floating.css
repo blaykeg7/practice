@@ -1,0 +1,19 @@
+.o{
+  outline: red solid 1px;
+}
+
+.container{
+ border: 5px solid green;
+ 
+}
+
+.box{
+  height: 100px; 
+  width: 30%;
+  
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
