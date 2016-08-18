@@ -7,4 +7,6 @@ $(".dropdown").click(function(){
     //toggle show on the one that was clicked.
    $(this).toggleClass ("show");
 
+   //adding sample code
+
 });
