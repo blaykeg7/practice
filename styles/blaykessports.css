@@ -1,8 +1,3 @@
-.o{
-    outline: 1px solid green;
-    height: 300px;
-}
-
 h2:hover{
     background: blue;
     width: 15%;
@@ -27,11 +22,24 @@ a{
 
 }
 
+iframe{
+    align-content: center;
+    top: 100%;
+
+
+}
+
 img{
     width: 100%;
-    height: 1%;
+    height: 100%;
     position: relative;
 }
+
+.img1{
+height: 50%;
+z-index: -1;
+}
+
 
 body{
     background-color: lightslategrey;
@@ -43,17 +51,16 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 100%;
     position: relative;
 }
 
 .text-container{
     position: absolute;
-    bottom: 25%;
-    top: 25%;
+    top: 15%;
     right: 25%;
     left: 25%;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-style: normal;
     font-weight: bold;  
@@ -124,3 +131,15 @@ input[type=text] {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+@media (max-width: 600px) {
+    .text-container {
+    position: absolute;
+    top: 9%;
+    right: 25%;
+    left: 25%;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    }
